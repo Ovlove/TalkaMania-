@@ -1,0 +1,29 @@
+/* Footer Styles */
+footer {
+  background-color: #f9f9f9;
+  padding: 2rem 0;
+  text-align: center;
+  color: #111;
+}
+
+.dark footer {
+  background-color: #111;
+  color: #f9f9f9;
+}
+
+footer a {
+  color: inherit;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  color: #1e40af;
+}
+
+footer .social-icons {
+  margin-top: 1rem;
+}
+
+footer .social-icons a {
+  font-size: 1.25rem;
+}
