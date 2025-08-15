@@ -1,0 +1,33 @@
+.category-sidebar {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.category-sidebar h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.category-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-sidebar ul li {
+  margin-bottom: 0.5rem;
+}
+
+.category-sidebar ul li a {
+  color: #111;
+  text-decoration: none;
+}
+
+.category-sidebar ul li a:hover {
+  color: #1e40af;
+}
+
+.dark .category-sidebar {
+  background-color: #1f2937;
+  color: #f9f9f9;
+}
