@@ -1,0 +1,24 @@
+.advertising-page {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.advertising-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.advertising-page p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.advertising-examples {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.dark .advertising-page {
+  color: #f9f9f9;
+}
