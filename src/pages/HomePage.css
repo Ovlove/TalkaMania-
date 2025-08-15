@@ -1,0 +1,27 @@
+.homepage-hero {
+  margin-top: 5rem; /* to offset fixed header */
+  padding: 1rem;
+}
+
+.latest-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.trending-section {
+  margin: 2rem 0;
+}
+
+.newsletter-signup {
+  background-color: #e5e7eb;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dark .newsletter-signup {
+  background-color: #1f2937;
+  color: #f9f9f9;
+  }
