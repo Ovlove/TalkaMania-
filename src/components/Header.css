@@ -1,0 +1,20 @@
+/* Header Styles */
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 50;
+}
+
+.dark header {
+  background-color: #111;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+button {
+  background: none;
+  border: none;
+}
