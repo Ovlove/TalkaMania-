@@ -1,0 +1,13 @@
+/* Toggle button */
+.dark-mode-toggle {
+  background: none;
+  border: 1px solid #111;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.dark .dark-mode-toggle {
+  border-color: #f9f9f9;
+  color: #f9f9f9;
+}
