@@ -1,0 +1,34 @@
+.contact-page {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.contact-page form {
+  display: grid;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-page input,
+.contact-page textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-page button {
+  padding: 0.5rem 1rem;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark .contact-page input,
+.dark .contact-page textarea {
+  background-color: #1f2937;
+  color: #f9f9f9;
+  border-color: #374151;
+  }
